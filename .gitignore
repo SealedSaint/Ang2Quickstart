@@ -1,0 +1,9 @@
+# IDE
+.idea
+
+# Dependency Folders
+node_modules
+typings
+
+# Compiled files
+public

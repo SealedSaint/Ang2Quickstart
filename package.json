@@ -1,0 +1,43 @@
+{
+    "name": "Ang2Quickstart",
+    "description": "Seed application for Angular 2 web app development",
+    "version": "1.0.0",
+    "author": "David Clark",
+    "main": "server.js",
+    "scripts": {
+        "start": "node index.js",
+        "gulp": "gulp",
+        "get_typings": "typings install"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "@angular/common": "2.0.0-rc.4",
+        "@angular/compiler": "2.0.0-rc.4",
+        "@angular/core": "2.0.0-rc.4",
+        "@angular/forms": "0.2.0",
+        "@angular/http": "2.0.0-rc.4",
+        "@angular/platform-browser": "2.0.0-rc.4",
+        "@angular/platform-browser-dynamic": "2.0.0-rc.4",
+        "@angular/router": "3.0.0-beta.1",
+        "@angular/router-deprecated": "2.0.0-rc.2",
+        "@angular/upgrade": "2.0.0-rc.4",
+        "angular2": "^2.0.0-beta.17",
+        "core-js": "^2.4.0",
+        "express": "^4.14.0",
+        "morgan": "^1.7.0",
+        "nconf": "^0.8.4",
+        "reflect-metadata": "^0.1.3",
+        "rxjs": "5.0.0-beta.6",
+        "systemjs": "0.19.27",
+        "zone.js": "^0.6.12"
+    },
+    "devDependencies": {
+        "del": "^2.2.1",
+        "gulp": "^3.9.1",
+        "gulp-sass": "^2.3.2",
+        "gulp-typescript": "^2.13.6",
+        "gulp-uglify": "^1.5.4",
+        "typescript": "^1.8.10",
+        "typings": "^1.0.4"
+    }
+}
